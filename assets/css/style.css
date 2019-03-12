@@ -2460,3 +2460,36 @@ header .form-inline {
         .right-panel .content #bootstrap-data-table_wrapper .table td,
         .right-panel .content #bootstrap-data-table_wrapper .table th {
           padding: 5px; } }
+
+
+
+
+
+
+/*        START BAR GRAPH*/
+        .bar {
+            fill: #6aa5db;
+        }
+
+        /* Lighten the axis lines */
+        #x-axis path,
+        #y-axis line,
+        #y-axis path {
+            stroke: #666;
+        }
+
+        /* Remove the tick marks on the x-axis */
+        #x-axis .tick line {
+            visibility: hidden;
+        }
+
+        text {
+            fill: #666;
+            font-size: 12px;
+        }
+
+        #x-axis text {
+            font-weight: 600;
+        }
+
+/*END BAR GRAPH*/
